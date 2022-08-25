@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@200;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <img class="image-hero" src="/images/illustration-hero.svg" alt="illustration-hero">
+      <div class="card__text">
+        <h1 class="card__title">Order Summary</h1>
+        <p class="card__paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+      </div>
+
+      <div class="internal-card">
+        <div class="internal-card--flex">
+          <img src="/images/icon-music.svg" alt="">
+          <ul class="internal-card__plan-ul">
+            <li class="plan__list-items list-items__text--bold">Annual Plan</li>
+            <li class="plan__list-items">$59.99/year</li>
+          </ul>
+        </div>
+        <a class="internal-card__cta" href="#">Change</a>
+      </div>
+
+      <div class="card-cta">
+        <a class="proceed-action main-actions" href="#">Proceed to Payment</a>
+        <a class="cancel-action main-actions" href="#">Cancel Order</a>
+      </div>
+    </section> 
+  </main>
+</body>
+</html>
